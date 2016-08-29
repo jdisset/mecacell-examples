@@ -1,0 +1,190 @@
+The system is: Darwin - 15.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/3.6.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/3.6.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2024a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2024a.dir/build.make CMakeFiles/cmTC_2024a.dir/build
+Building C object CMakeFiles/cmTC_2024a.dir/testCCompiler.c.o
+/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang     -o CMakeFiles/cmTC_2024a.dir/testCCompiler.c.o   -c /Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2024a
+/usr/local/Cellar/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2024a.dir/link.txt --verbose=1
+/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2024a.dir/testCCompiler.c.o  -o cmTC_2024a  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf7b1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bf7b1.dir/build.make CMakeFiles/cmTC_bf7b1.dir/build
+Building C object CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o
+/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang     -o CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.6.1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_bf7b1
+/usr/local/Cellar/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7b1.dir/link.txt --verbose=1
+/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o  -o cmTC_bf7b1   
+clang version 3.8.0 (tags/RELEASE_380/final)
+Target: x86_64-apple-darwin15.4.0
+Thread model: posix
+InstalledDir: /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_bf7b1 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o -lSystem /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.102
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bf7b1/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bf7b1.dir/build.make CMakeFiles/cmTC_bf7b1.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang     -o CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.6.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_bf7b1]
+  ignore line: [/usr/local/Cellar/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7b1.dir/link.txt --verbose=1]
+  ignore line: [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o  -o cmTC_bf7b1   ]
+  ignore line: [clang version 3.8.0 (tags/RELEASE_380/final)]
+  ignore line: [Target: x86_64-apple-darwin15.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_bf7b1 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o -lSystem /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bf7b1] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_bf7b1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a] ==> [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a544/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1a544.dir/build.make CMakeFiles/cmTC_1a544.dir/build
+Building CXX object CMakeFiles/cmTC_1a544.dir/testCXXCompiler.cxx.o
+/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang++      -o CMakeFiles/cmTC_1a544.dir/testCXXCompiler.cxx.o -c /Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1a544
+/usr/local/Cellar/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a544.dir/link.txt --verbose=1
+/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1a544.dir/testCXXCompiler.cxx.o  -o cmTC_1a544  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fa2a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2fa2a.dir/build.make CMakeFiles/cmTC_2fa2a.dir/build
+Building CXX object CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o
+/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang++      -o CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.6.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2fa2a
+/usr/local/Cellar/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fa2a.dir/link.txt --verbose=1
+/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2fa2a   
+clang version 3.8.0 (tags/RELEASE_380/final)
+Target: x86_64-apple-darwin15.4.0
+Thread model: posix
+InstalledDir: /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_2fa2a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.102
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2fa2a/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2fa2a.dir/build.make CMakeFiles/cmTC_2fa2a.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang++      -o CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.6.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2fa2a]
+  ignore line: [/usr/local/Cellar/cmake/3.6.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fa2a.dir/link.txt --verbose=1]
+  ignore line: [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2fa2a   ]
+  ignore line: [clang version 3.8.0 (tags/RELEASE_380/final)]
+  ignore line: [Target: x86_64-apple-darwin15.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_2fa2a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2fa2a] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_2fa2a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/bin/../lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a] ==> [/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++;/Users/jean/Softwares/clang+llvm-3.8.0-x86_64-apple-darwin/lib/clang/3.8.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+

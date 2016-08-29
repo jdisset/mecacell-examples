@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/jean/Code/mecacell-examples/basic/build",
+  "command": "g++-6   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/Users/jean/Code/mecacell-examples/basic/build -I/Users/jean/Code/mecacell-examples/basic -iframework /usr/local/Cellar/qt5/5.6.0/lib -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtQuick.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtGui.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtCore.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/./mkspecs/macx-clang -isystem /System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtQml.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtNetwork.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtOpenGL.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtWidgets.framework/Headers  -O3 -g -std=c++14 -Wall -Wextra -Wundef -Wshadow -pedantic    -fPIC -o CMakeFiles/viewer.dir/src/mainviewer.cpp.o -c /Users/jean/Code/mecacell-examples/basic/src/mainviewer.cpp",
+  "file": "/Users/jean/Code/mecacell-examples/basic/src/mainviewer.cpp"
+},
+{
+  "directory": "/Users/jean/Code/mecacell-examples/basic/build",
+  "command": "g++-6   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/Users/jean/Code/mecacell-examples/basic/build -I/Users/jean/Code/mecacell-examples/basic -iframework /usr/local/Cellar/qt5/5.6.0/lib -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtQuick.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtGui.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtCore.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/./mkspecs/macx-clang -isystem /System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtQml.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtNetwork.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtOpenGL.framework/Headers -isystem /usr/local/Cellar/qt5/5.6.0/lib/QtWidgets.framework/Headers  -O3 -g -std=c++14 -Wall -Wextra -Wundef -Wshadow -pedantic    -fPIC -o CMakeFiles/viewer.dir/viewer_automoc.cpp.o -c /Users/jean/Code/mecacell-examples/basic/build/viewer_automoc.cpp",
+  "file": "/Users/jean/Code/mecacell-examples/basic/build/viewer_automoc.cpp"
+},
+{
+  "directory": "/Users/jean/Code/mecacell-examples/basic/build",
+  "command": "g++-6    -I/Users/jean/Code/mecacell-examples/basic/build -I/Users/jean/Code/mecacell-examples/basic  -O3 -g -std=c++14 -Wall -Wextra -Wundef -Wshadow -pedantic    -o CMakeFiles/console.dir/src/mainconsole.cpp.o -c /Users/jean/Code/mecacell-examples/basic/src/mainconsole.cpp",
+  "file": "/Users/jean/Code/mecacell-examples/basic/src/mainconsole.cpp"
+}
+]
