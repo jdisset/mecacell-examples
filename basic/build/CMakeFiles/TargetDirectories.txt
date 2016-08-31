@@ -1,5 +1,0 @@
-/Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/viewer.dir
-/Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/edit_cache.dir
-/Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/rebuild_cache.dir
-/Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/console.dir
-/Users/jean/Code/mecacell-examples/basic/build/CMakeFiles/viewer_automoc.dir
