@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -g -Wall -Wextra -Wundef -Wshadow -pedantic -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/basic.dir/main.cpp.o  -o basic 
